@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: it shows good performance (similar to sort2) when sorting the already sorted files, but the worst performance when sorting the random files
+
+sort2 uses: merge sort
+
+How do you know?: it shows the best performance in all three cases
+
+sort3 uses: selection sort
+
+How do you know?: for the already sorted files it shows the worst performance, since it has to go through each value and check it

@@ -1,0 +1,155 @@
+html, body, #container, #main {
+    background-color: Cornsilk;
+}
+.carousel-item img {
+    max-height: 90vh;
+    object-fit: contain;
+}
+#telegram {
+    border-radius: 100%;
+}
+#cart {
+    display: none;
+    height: 70px!important;
+    padding-left: 15px;
+    width: 70px!important;
+}
+#cart:focus {
+    border: none!important;
+    box-shadow: none!important;
+}
+#menu-block {
+    align-content: end;
+}
+#menu {
+    overflow: auto;
+    white-space: nowrap;
+    display: inline-flex;
+    width: 100%;
+    align-content: end;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+#menu button {
+    display: inline-block;
+    color: Tan;
+    text-align: center;
+    padding: 14px;
+    margin: 5px;
+    border-color: Tan;
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: none;
+    background-color: transparent;
+}
+#menu button.active, #menu button:hover {
+    color: white;
+    background-color: Tan;
+}
+#menu::-webkit-scrollbar {
+    display: none;
+}
+#name, #phone, #address, #commentaries {
+    background-color: Cornsilk;
+    border-color: Tan;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+#name:focus, #phone:focus, #address:focus, #commentaries:focus {
+    box-shadow: 1px 1px 10px Tan;
+}
+#phone {
+    border-radius: 0 1.5rem 1.5rem 0;
+}
+#number-prefix, #submit {
+    background-color: Tan;
+    border-color: Tan;
+    border-radius: 1.5rem 0 0 1.5rem;
+    color: Cornsilk;
+}
+#submit {
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.card {
+    border-radius: 1.5rem;
+}
+.card:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 0px gray;
+    -moz-box-shadow: 0px 0px 15px 0px gray;
+    box-shadow: 0px 0px 15px 0px gray;
+}
+.card img {
+    border-top-left-radius: calc(1.5rem - 1px);
+    border-top-right-radius: calc(1.5rem - 1px);
+}
+.card-body {
+    background-color: Tan;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.card-title, .card-text {
+    color: white;
+}
+.bootstrap-select {
+    width: 100%!important;
+}
+.bootstrap-select .btn {
+    background-color: Tan;
+    border-style: solid;
+    border-color: Cornsilk;
+    border-radius: 1.5rem;
+    color: White!important;
+}
+.bootstrap-select .btn:hover {
+    background-color: Cornsilk;
+    border-style: solid;
+    border-color: Cornsilk;
+    color: Tan!important;
+}
+.bootstrap-select .btn:focus {
+    background-color: Cornsilk;
+    border-style: solid;
+    border-color: Cornsilk;
+    color: Tan!important;
+    box-shadow: none!important;
+}
+.bootstrap-select .dropdown-toggle:focus {
+    outline: 0 !important;
+}
+.bootstrap-select .dropdown-item:focus {
+    background-color: transparent!important;
+    outline: 0 !important;
+}
+.counter {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    max-width: 50%;
+}
+.input-group {
+    background-color: Cornsilk;
+    border-radius: 1.5rem;
+}
+.addtocart:hover {
+    -webkit-box-shadow: 0px 0px 15px 0px Cornsilk;
+    -moz-box-shadow: 0px 0px 15px 0px Cornsilk;
+    box-shadow: 0px 0px 15px 0px Cornsilk;
+}
+.badge {
+    padding: .30em .45em;
+    font-size: .55em;
+    line-height: 0.9;
+}
+.start-100 {
+    left: 70%!important;
+}
+.top-0 {
+    top: 20%!important;
+}
+.table-responsive {
+    width: 100%;
+}
+.bskt {
+    background-color: Tan;
+}

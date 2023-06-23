@@ -1,0 +1,8 @@
+# IDEs and editors
+**/.vscode/
+**/__pycache__/
+**/.pytest_cache/
+**/__init__.pyc
+**/.mypy_cache/
+**/.DS_Store
+**/Thumbs.db

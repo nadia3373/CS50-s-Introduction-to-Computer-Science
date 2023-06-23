@@ -1,0 +1,33 @@
+body {
+    background-color: #CFF0FF;
+    color: #00A0EA;
+    text-align: center;
+    margin: 10px;
+}
+.button {
+    text-align: center;
+}
+.btn-primary {
+    background-color: #00A0EA;
+    color: #fff;
+    margin: 15px;
+}
+.img-fluid {
+    float: left;
+    max-width: 33.33%;
+    padding: 5px;
+    overflow: hidden;
+    }
+.info {
+    margin: 10px;
+    text-align: center;
+}
+.card-body {
+    background-color: #84D9FF;
+    color: #00A0EA;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}

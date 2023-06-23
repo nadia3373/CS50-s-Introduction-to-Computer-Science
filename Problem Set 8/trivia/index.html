@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            document.addEventListener('DOMContentLoaded', function() {
+                let right = document.querySelector('.right');
+                right.addEventListener('click', function() {
+                    right.style.backgroundColor = 'green';
+                    document.querySelector('#check1').innerHTML = 'Correct!';
+                });
+                let wrong = document.querySelectorAll('.wrong');
+                for (let count = 0; count < wrong.length; count++) {
+                    wrong[count].addEventListener('click', function() {
+                    wrong[count].style.backgroundColor = 'red';
+                    document.querySelector('#check1').innerHTML = 'Incorrect!';
+                    });
+                }
+                document.querySelector('#check').addEventListener('click', function() {
+                    let input = document.querySelector('input');
+                    if (input.value === 'France') {
+                        input.style.backgroundColor = 'green';
+                        document.querySelector('#check2').innerHTML = 'Correct!';
+                    } else {
+                        input.style.backgroundColor = 'red';
+                        document.querySelector('#check2').innerHTML = 'Incorrect!';
+                    }
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>How many sides does a Dodecahedron have?</h3>
+                <button class="right">12</button>
+                <button class="wrong">24</button>
+                <button class="wrong">14</button>
+                <button class="wrong">20</button>
+
+                <p id="check1"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>The Statue of Liberty was a gift to the United States from which European country?</h3>
+                <input type="text">
+                <button id="check">Check</button>
+
+                <p id="check2"></p>
+            </div>
+        </div>
+    </body>
+</html>

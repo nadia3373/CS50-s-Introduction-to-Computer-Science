@@ -1,0 +1,228 @@
+html, body, #container, #main {
+    background-color: Cornsilk;
+}
+#back {
+    background-color: transparent;
+    border-color: transparent;
+    color: Tan;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 200px;
+}
+#formFile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 200px;
+}
+#home {
+    display: none;
+    height: 70px!important;
+    padding-left: 15px;
+    width: 70px!important;
+}
+#home:focus {
+    border: none!important;
+    box-shadow: none!important;
+}
+#menu-block {
+    align-content: end;
+}
+#menu {
+    overflow: auto;
+    white-space: nowrap;
+    display: inline-flex;
+    width: 100%;
+    align-content: end;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+#menu button {
+    display: inline-block;
+    color: Tan;
+    text-align: center;
+    padding: 14px;
+    margin: 5px;
+    border-color: Tan;
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: none;
+    background-color: transparent;
+}
+#menu button.active, #menu button:hover {
+    color: white;
+    background-color: Tan;
+}
+#menu::-webkit-scrollbar {
+    display: none;
+}
+#modifiers {
+    align-items: center;
+    align-self: flex-start;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 50%;
+}
+#modifiersTable {
+    width: 100%;
+}
+#newModifierSelect {
+    border-color: Tan;
+    box-shadow: 1px 1px 10px Tan;
+    width: 70%;
+}
+#newModifierSelect:focus {
+    border-color: Tan;
+    box-shadow: 1px 1px 10px Tan;
+    width: 70%;
+}
+#newSettingPrice {
+    width: 70px;
+}
+#newSettingPrice:focus {
+    width: 70px;
+}
+#newSettingSelect {
+    border-color: Tan;
+    box-shadow: 1px 1px 10px Tan;
+    width: 70%;
+}
+#newSettingSelect:focus {
+    border-color: Tan;
+    box-shadow: 1px 1px 10px Tan;
+    width: 70%;
+}
+#options {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#place {
+    color: Tan;
+    text-align: center;
+}
+#productImage {
+    display: block;
+    margin: 0 auto;
+}
+#productName {
+    display: inline-flex;
+    width: 100%;
+}
+#settings {
+    align-items: center;
+    align-self: flex-start;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 50%;
+    padding-right: 35px;
+}
+#settingsTable {
+    width: 100%;
+}
+#settingsToAdd {
+    background-color: Cornsilk;
+    border-color: Tan;
+    border-radius: 1.5rem;
+    padding: 0;
+    text-align: center;
+}
+#settingsToAdd:focus {
+    background-color: Cornsilk;
+    border-color: Tan;
+    border-style: dotted;
+    border-radius: 1.5rem;
+    padding: 0;
+    text-align: center;
+    box-shadow: 1px 1px 10px Tan;
+}
+#status {
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+#status p {
+    text-align: left;
+}
+.card-body {
+    padding: 0;
+}
+.card-text {
+    font-size: large;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+}
+.choose {
+    background-color: Cornsilk;
+    border-color: Tan;
+    border-radius: 1.5rem;
+    padding: 0;
+    text-align: center;
+}
+.confirm {
+    border-color: transparent;
+    border-radius: 1.5rem;
+    border-width: 1px;
+    border-style: none;
+    background-color: Tan;
+    color: White;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+.cr-boundary {
+    width: 200px!important;
+    height: 200px!important;
+}
+.cr-slider-wrap {
+    display: inline-flex;
+    margin: 15px 0 15px 27px!important;
+    width: 150px!important;
+}
+.form-control {
+    background-color: transparent;
+    border-color: Tan;
+    border-radius: 1.5rem;
+    padding: 0;
+    text-align: center;
+}
+.form-control:focus {
+    background-color: transparent;
+    border-color: Tan;
+    border-style: dotted;
+    border-radius: 1.5rem;
+    padding: 0;
+    text-align: center;
+    box-shadow: 1px 1px 10px Tan;
+}
+.form-select option {
+    background-color: Cornsilk;
+}
+.form-select-sm {
+    background-color: Cornsilk;
+    border-color: Tan;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    text-align: center;
+}
+.form-select-sm:focus {
+    border-color: Tan;
+    border-style: dotted;
+    box-shadow: 1px 1px 10px Tan;
+}
+.table {
+    border-color: transparent;
+}
